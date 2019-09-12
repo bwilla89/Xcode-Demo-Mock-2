@@ -12,6 +12,18 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Command-option-shift: choose where to open a file
+        // Command-/ : comment/uncomment a line of code
+        // Control-T : transpose characters
+        // Control-Command-E: edit all in Scope
+        // Control-I : re-indent selection
+        //Command-[] : move indention left/right
+        
+        var myName = "Brian"
+        print("My name is \(myName)")
+        
+//        this is a change i have made
         // Do any additional setup after loading the view.
     }
 
