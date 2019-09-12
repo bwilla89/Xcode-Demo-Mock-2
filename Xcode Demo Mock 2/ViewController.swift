@@ -20,7 +20,7 @@ class ViewController: UIViewController {
         // Control-I : re-indent selection
         //Command-[] : move indention left/right
         
-        var fullName = "Brian Williams"
+        let fullName = "Brian Williams"
         print("My name is \(fullName)")
         
 //        this is a change i have made
